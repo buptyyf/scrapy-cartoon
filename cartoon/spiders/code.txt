@@ -1,0 +1,845 @@
+
+
+
+
+
+            <div class="topbar topbar-ny                 topbar--mini
+">
+                <div class="topbar-quick-nav is-unLoggedIn" id="topbar">
+                    <div class="container f-cb">
+    <a href="/" data-log="a1-1:frame,logo" class="brand f-fl" title="网易漫画"><img src="http://st.manhua.126.net/images/manhua-logo-dark.png?ddac6dccc1856856bf3ee81db0a4d9dd"></a>
+    <div class="search__container ">
+        <form class="yt-s search-form yt-s--compact" style="position:relative;" method="get" action="/search/book/key.do">
+            <input type="text" class="s" name="key" placeholder="搜索你感兴趣的漫画名或作者" value="" autocomplete="off">
+            <button type="submit" data-logo="a1-2:frame,search">Search</button>
+            <div id="s-suggestions" class="a-fadeinT" style="position:absolute;top:32px;left:0;width:100%;display:none">
+            <div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 388px; z-index: 9999;"></div></div>
+        </form>
+    </div>
+    <div class="topbar-hot__container f-fl topbar-hot--compact" id="topbar-hot">
+
+    <ul class="horizontal-list topbar-hot">
+       <li><a href="http://manhua.163.com/source/4394282662640119988" target="_blank" title="黑白诡录" data-log="a1-3:frame,search_recommend">黑白诡录 <i class="u-ico hot-icon"></i></a></li>
+       <li><a href="http://manhua.163.com/source/4317039006300068050" target="_blank" title="大唐无双" data-log="a1-3:frame,search_recommend">大唐无双 <i class="u-ico hot-icon"></i></a></li>
+       <li><a href="http://manhua.163.com/source/4577380875630090313" target="_blank" title="天才医仙" data-log="a1-3:frame,search_recommend">天才医仙 <i class="u-ico hot-icon"></i></a></li>
+</ul>
+<!-- vampire:success -->
+
+    </div>
+<script>
+(function() {
+
+var css = '#topbar .container{ min-width: ' + (document.getElementById('topbar-hot').offsetWidth + 807) + 'px' +'}',
+head = document.head || document.getElementsByTagName('head')[0],
+style = document.createElement('style');
+
+style.type = 'text/css';
+if (style.styleSheet){
+style.styleSheet.cssText = css;
+} else {
+style.appendChild(document.createTextNode(css));
+}
+
+head.appendChild(style);
+})();
+
+</script>
+
+                        <ul class="navbar-nav horizontal-list f-fr yt-shortcuts">
+                            <li class="f-pr dropdown-parent item-text"><a rel="nofollow" href="/message/comment" data-log="a1-49:frame,message" id="dropdown-message-trigger" class="js-login-required message-link"><i class="yt-site-ico-message u-ico yt-site-ico-ny"></i> 消息<span class="js-count w-counter" style="display:none"></span></a></li>
+                            <li class="f-pr dropdown-parent item-text"><a rel="nofollow" href="/subscribe" id="dropdown-liked-trigger" data-log="a1-11:frame_shelf_favorate" class="js-login-required liked-link"><i class="yt-site-ico-shelf u-ico yt-site-ico-ny"></i> 书架<span class="js-count w-counter" style="display:none"></span></a></li>
+                            <li class="f-pr dropdown-parent item-text"><a rel="nofollow" href="/history" data-log="a1-10:frame_shelf_history" id="dropdown-history-trigger" class="js-login-required history-link"><i class="yt-site-ico-history u-ico yt-site-ico-ny"></i> 历史</a></li>
+                            <li style="margin-right:0"><a data-log="a1-26:frame_navi,download" href="/download" class="download-link" target="_blank"><i class="yt-site-ico-download-text u-ico yt-sprites"></i></a></li>
+                        </ul>
+
+
+                      <div class="topbar-meta-user f-fr">
+                        <ul class="navbar-nav horizontal-list f-cb j-user-meta">
+                                <li class="f-pr dropdown-parent item-text"><a href="#" rel="nofollow" class="j-user-trigger js-login-required user-link" data-log="a1-6:frame,account" id="auto-id-1467862972443">登录</a></li>
+                                <li class="separator item-text"></li>
+                                <li class="item-text"><a class="js-register" rel="nofollow" href="/account/mobile" style="padding-right:0;" data-log="a1-9:frame,register">注册</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="local-nav local-nav-standard">
+                    <div class="container">
+                        <div class="local-nav--inner ">
+    <ul class="horizontal-list f-cb flex-nav">
+        <li style="margin-left:0">
+            <a href="/" data-log="a1-19:frame_navi,home">首页</a>
+        </li>
+        <li>
+            <a href="/search/book/update_time.do" data-log="a1-20:frame_navi,update">最近更新</a>
+        </li>
+        <li><a href="/search/book/click.do" data-log="a1-21:frame_navi,rank">排行榜</a>
+        </li>
+        <li><a href="/search/book/filter/form.do?tab=free" data-log="a1-50:frame,free">免费</a></li>
+        <li><a href="/search/book/filter/form.do" data-log="a1-22:frame_navi,all">分类</a></li>
+        <li><a href="/subject" data-log="a1-25:frame_navi,special">专题</a></li>
+        <li class="vip"><a href="/search/book/filter/form.do?tab=pay" data-log="a1-24:frame_navi,vip"><i class="yt-site-ico-vip u-ico yt-site-ico-ny"></i> VIP专享</a></li>
+    </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div style="display:none;">
+            <input id="j-csrf" type="hidden" value="a6c7beab2a446a3eedb299c036e16c83">
+        </div>
+	<div class="container">
+		<div class="columns columns-three-one-forth">
+      		<div class="three-forths column">
+			  <div class="u-media f-cb yt-block yt-panel m-source" style="padding:32px 30px">
+			  	<div class="f-fl source-cover-wrapper" style="margin-right:20px;">
+	               <img alt=" 杰探" src="http://easyread.nos.netease.com/pic201601195034d898269047a1a99194e3a08bb61e.jpeg?imageView&amp;thumbnail=188y267" width="188" height="267">
+	               
+	            </div>
+	            <div class="media-body">
+                <div class="source-head">
+	            	<h2 class="f-ib" itemprop="name" style="margin-right:.2em"> 杰探</h2>
+                    
+
+                  	
+
+                  		<span class="u-label u-label-cooperation">合作</span>
+                </div>
+                <div class="g-cols--float" style="height:90px">
+                    <div class="g-col">
+	              	<div class="metadata">作者：&nbsp;&nbsp;<a href="/author/book/16904898" data-log="b1-1:detail,publisher,4530855668140092184" target="_blank">新漫画/宋熙</a></div>
+	              	<div class="metadata">人气：&nbsp;&nbsp;59万</div>
+	              	<div class="metadata">题材：&nbsp;
+		              		<a href="/search/book/filter/form.do?tc=3002" target="_blank" data-log="b1-2:detail,subject,4530855668140092184">动作</a>
+		              		<a href="/search/book/filter/form.do?tc=17" target="_blank" data-log="b1-2:detail,subject,4530855668140092184">武侠</a>
+		              		<a href="/search/book/filter/form.do?tc=36" target="_blank" data-log="b1-2:detail,subject,4530855668140092184">古风</a>
+		              		<a href="/search/book/filter/form.do?tc=4" target="_blank" data-log="b1-2:detail,subject,4530855668140092184">悬疑</a>
+	              	</div>
+                    </div>
+                    <div class="g-col">
+                        <div class="metadata">状态：&nbsp;&nbsp;<a href="/search/book/filter/form.do?jd=0" target="_blank">连载中</a></div>
+                        <div class="metadata">吐槽：&nbsp;&nbsp;30</div>
+                    </div>
+                </div>
+	              
+	              
+	              
+	              
+				  
+	              <div class="desc j-desc work-desc expandable-click">
+	                  <div class="desc-inner">唐永徽初年，年轻的狄仁杰正要赴任汴州判佐。而等待他的却是一个噩耗---自己的恩师王大人离奇被杀。狄仁杰前往事发地点，汴州刺史之女贺兰悄悄跟上他，一同踏上了寻找真相的之旅。这一路杀机四伏。狄仁杰发现，王大人的死因与一个小小的碎片有关。由此引出一段天下鼎革的历史。历史从未消失，只是被摔得支离破碎。当所有碎片拼到一起，真相终于呼之欲出。而始作俑者才悄然露出了他的本来面目……
+<br><span id="doExpand">【展开】</span></div>
+	                  <div class="js-expandableIndicator expandable-indicator"></div>
+	                  
+	              </div>
+	              <div class="action-area">
+						<input type="hidden" value="" id="bookProgress" page="">
+						<a id="j-read" class="j-read u-btn  u-btn-danger source-btn-read" target="_blank" href="/reader/4530855668140092184" data-log="b1-4:detail,read,4530855668140092184"><span class="u-ico ico-sm ico-book"></span> 开始阅读</a>
+	                <a type="button" data-log="b1-5:detail,subscript,4530855668140092184" class="j-fav-button u-btn u-btn-lg u-btn-p fav-btn source-btn-collect"><span class="spirit-star"></span> 收藏</a>
+					<div class="box1 f-fr">
+                   <a href="#" class="j-ticket j-btn-show-ticket" book-id="4530855668140092184" data-log="b1-6:detail,vote,4530855668140092184" img-src="http://easyread.nos.netease.com/pic201601195034d898269047a1a99194e3a08bb61e.jpeg?imageView&amp;thumbnail=79y110"><span class="spirit-mt2"></span> 投月票</a>
+                    <span style="color:#DFDFDF;padding:0 .7em 0 .5em;display:inline-block;width: 1px;">|</span>
+		                <a class="js-giftBtn" data-log="b1-38:detail,send_gift,4530855668140092184" style="cursor:pointer"><span class="spirit-gift2"></span> 送礼物</a>
+		                <span style="color:#DFDFDF;padding:0 .7em 0 .5em;display:inline-block;width: 1px;">|</span>
+                    <span class="f-pr dropdown-parent" style="padding-bottom:5px;">
+                    <div class="j-share-tip share-tip" style="">
+                       <div class="share-tip-down"></div>
+                        分享得金币哦!
+                    </div>
+						          <a data-log="b1-8:detail,share,4530855668140092184" class="share-button" book-id="4530855668140092184" book-title=" 杰探" h5domain="h5.manhua.163.com" shortintro="杰探来自新漫画APP" summary="唐永徽初年，年轻的狄仁杰正要赴任汴州判佐。而等待他的却是一个噩耗---自己的恩师王大人离奇被杀。狄仁杰前往事发地点，汴州刺史之女贺兰悄悄跟上他，一同踏上了寻找真相的之旅。这一路杀机四伏。狄仁杰发现，王大人的死因与一个小小的碎片有关。由此引出一段天下鼎革的历史。历史从未消失，只是被摔得支离破碎。当所有碎片拼到一起，真相终于呼之欲出。而始作俑者才悄然露出了他的本来面目……" pic="http://easyread.nos.netease.com/pic201601195034d898269047a1a99194e3a08bb61e.jpeg" href="#" id="auto-id-1467862972401"><span class="spirit-share2" style="margin-top: -2px;"></span> 分享</a>
+                        
+            </span>
+						
+					</div>
+	              </div>
+	            </div>
+          		</div>
+                        
+                            
+                    
+				  <div class="j-catalog m-catalog yt-block" style="margin-bottom:20px">
+				  	<div class="catalog-header yt-panel-header-2">
+			            <span class="source-font source-font-section-list">话列表</span><span class="catalog-header-metadata metadata">4月7号 更新至 <a href="/reader/4530855668140092184/4598116139760120000" target="_blank" data-log="b1-11:detail,latest_update,4530855668140092184">[八3]</a>
+						</span>
+						<a href="javascript:;" data-reverse="true" class="f-fr j-toggle-order muted catalog-header-toggle" data-log="b1-13:detail,sort,4530855668140092184">正序<span class="u-ico ico-order-inverted"></span></a>
+					</div>
+		            <div class="js-catalog-body catalog-body f-cb">   <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4598116139760120000" title="八3">                   <span class="chapter-item-content f-toe">八3</span>         <span class="muted chapter-item-picCount">10P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4592753657710100587" title="八2">                   <span class="chapter-item-content f-toe">八2</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4587352404580113320" title="八1">                   <span class="chapter-item-content f-toe">八1</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4580007153340101126" title="七3">                   <span class="chapter-item-content f-toe">七3</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4573238801760100001" title="七2">                   <span class="chapter-item-content f-toe">七2</span>         <span class="muted chapter-item-picCount">10P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4568879003070119725" title="七1">                   <span class="chapter-item-content f-toe">七1</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4561899161230113126" title="番外1">                   <span class="chapter-item-content f-toe">番外1</span>         <span class="muted chapter-item-picCount">5P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4557075328540120020" title="六3">                   <span class="chapter-item-content f-toe">六3</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4545825141360102115" title="六2">                   <span class="chapter-item-content f-toe">六2</span>         <span class="muted chapter-item-picCount">10P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4545825141360102094" title="六1">                   <span class="chapter-item-content f-toe">六1</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4545825141360102084" title="五3">                   <span class="chapter-item-content f-toe">五3</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4532608134530110603" title="五2">                   <span class="chapter-item-content f-toe">五2</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4529535265780105827" title="五1">                   <span class="chapter-item-content f-toe">五1</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4529535265780105817" title="四3">                   <span class="chapter-item-content f-toe">四3</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092428" title="四2">                   <span class="chapter-item-content f-toe">四2</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092383" title="四1">                   <span class="chapter-item-content f-toe">四1</span>         <span class="muted chapter-item-picCount">10P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092288" title="三3">                   <span class="chapter-item-content f-toe">三3</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092278" title="三2">                   <span class="chapter-item-content f-toe">三2</span>         <span class="muted chapter-item-picCount">9P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092233" title="三1">                   <span class="chapter-item-content f-toe">三1</span>         <span class="muted chapter-item-picCount">8P</span>              </a> </div>    <div class="m-chapter-item">              <a data-log="b1-14:detail,catalog,4530855668140092184" target="_blank" href="/reader/4530855668140092184/4530855668140092222" title="二3">                   <span class="chapter-item-content f-toe">二3</span>         <span class="muted chapter-item-picCount">10P</span>              </a> </div>    <a href="#" data-log="b1-15:detail,catalog_more,4530855668140092184" class="j-load-more-button m-load-more-sm">点击展开更多目录 <span class="u-ico ico-arrow-bottom"></span></a> </div>
+		          </div>
+
+    				<a href="http://manhua.163.com/activity/ccg2016/main" target="_blank" class="prom-link prom-link-block" data-log="b1-20:detail,banner_1,4530855668140092184">
+    		          <img src="http://easyread.nos.netease.com/pic/2016/06/28/d0763882fc394250a856faa1fd4bf42b.jpg" width="960" height="110">
+    		        </a>
+				
+				<div class="m-reward yt-block yt-panel" id="reward-area">
+		        	<div class="r1">
+		        		<img class="giftbox" src="http://st.manhua.126.net/images/reward/giftbox.png?f213a5e1337b5f870c73cff0adb4d811">
+		        		<div class="r1-col2">
+							<span class="source-font source-font-tuhao">这里有土豪↓↓↓</span>
+						</div>
+		        		<div class="r1-col1">
+		        			<img class="f-vam emotion" src="http://st.manhua.126.net/images/reward/girl.png?924b6763f23a08602bdda4b5731375ca">
+							<span class="source-font source-font-gift-to-author">给大大送礼物(*^__^*)</span>
+		        			<span class="f-vam emotion">→其实我想挤上粉丝榜么么哒( ͡° ͜ʖ ͡°)✧</span>
+		        		</div>
+		        	</div>
+		        	<img class="division" src="http://st.manhua.126.net/images/line.png?7568dc092b761f736a99521af3fa062f">
+		        	<div class="r2">
+		        		<div id="r2-col2" class="r2-col2">
+		        			
+		        		<div id="auto-id-1467862972449"><ul>                            <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 一袋节操</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的肚兜</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 一袋节操</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘壁咚</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘壁咚</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的肚兜</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">brokengu</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?thumbnail=28y28&amp;imageView">                 <p><span style="color:#999;">brokengu</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/B11C0E754EBBC9A3B70D0B3DE6782E49/100">                 <p><span style="color:#999;">照心！</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                 <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                 <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/BE3A40D0625AA555ED8A3EB8362BDC93/100">                 <p><span style="color:#999;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Su</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                 <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                 <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/77FE1922D3F2234E076A8AC237A507A3/100">                 <p><span style="color:#999;">か漫画水</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://wx.qlogo.cn/mmopen/PqcbQGRwSAiaQODVvoXyxXd3iaRiaXicZgRgwYcShR5Gft5bqvllfeXUdJ7Foqppba17twgsrS925ibmPPTgibg2GKbYia0qicN8nDEp/0">                 <p><span style="color:#999;">供水局局</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                  <li>             <div class="inline-wrap">                 <img class="corner-l" src="/images/reward/corner-l.png">                 <img class="corner-r" src="/images/reward/corner-r.png">                 <img class="head" src="http://wx.qlogo.cn/mmopen/PqcbQGRwSAiaQODVvoXyxXd3iaRiaXicZgRgwYcShR5Gft5bqvllfeXUdJ7Foqppba17twgsrS925ibmPPTgibg2GKbYia0qicN8nDEp/0">                 <p><span style="color:#999;">供水局局</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>             </div>         </li>                                            <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 一袋节操</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的肚兜</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 一袋节操</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘壁咚</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘壁咚</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">1928</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的肚兜</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">brokengu</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?thumbnail=28y28&amp;imageView">                     <p><span style="color:#999;">brokengu</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/B11C0E754EBBC9A3B70D0B3DE6782E49/100">                     <p><span style="color:#999;">照心！</span><span> 送了</span><span style="color:#f52851;"> 鹿娘的胖次</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                     <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                     <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/BE3A40D0625AA555ED8A3EB8362BDC93/100">                     <p><span style="color:#999;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Su</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                     <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://tp3.sinaimg.cn/3501936494/180/5714486753/1">                     <p><span style="color:#999;">风逝籴</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://q.qlogo.cn/qqapp/1103996410/77FE1922D3F2234E076A8AC237A507A3/100">                     <p><span style="color:#999;">か漫画水</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://wx.qlogo.cn/mmopen/PqcbQGRwSAiaQODVvoXyxXd3iaRiaXicZgRgwYcShR5Gft5bqvllfeXUdJ7Foqppba17twgsrS925ibmPPTgibg2GKbYia0qicN8nDEp/0">                     <p><span style="color:#999;">供水局局</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                          <li>                 <div class="inline-wrap">                     <img class="corner-l" src="/images/reward/corner-l.png">                     <img class="corner-r" src="/images/reward/corner-r.png">                     <img class="head" src="http://wx.qlogo.cn/mmopen/PqcbQGRwSAiaQODVvoXyxXd3iaRiaXicZgRgwYcShR5Gft5bqvllfeXUdJ7Foqppba17twgsrS925ibmPPTgibg2GKbYia0qicN8nDEp/0">                     <p><span style="color:#999;">供水局局</span><span> 打赏了</span><span style="color:#f52851;"> 1张月票儿</span></p>                 </div>             </li>                            </ul> </div></div>
+		        		<div id="r2-reward" class="r2-col1">
+		        			
+		        		<div id="auto-id-1467862972452" class="reward-container">       <div class="reward-list reward-list-0">     <ul class="rewardUl" style="width: 471px; margin-left: 0px;">                  <li data-click="onSelect:0," class="reward-item j-active" itemid="3" fansvalue="100" title="鹿娘的胖次" price="100" style="margin-left:0!important;" index="0">             <img src="http://easyread.nos.netease.com/pic/2016/03/21/0976c27117554e3da0afa51634d45bc4.png">             <div class="reward-title">鹿娘的胖次</div>             <div class="reward-price">100</div>         </li>                  <li data-click="onSelect:0," class="reward-item" itemid="2" fansvalue="300" title="鹿娘的肚兜" price="300" index="1">             <img src="http://easyread.nos.netease.com/pic/2016/03/21/aca9bc5a216140289464779c06211ff1.png">             <div class="reward-title">鹿娘的肚兜</div>             <div class="reward-price">300</div>         </li>                  <li data-click="onSelect:0," class="reward-item" itemid="4" fansvalue="500" title="鹿娘壁咚" price="500" index="2">             <img src="http://easyread.nos.netease.com/pic/2016/03/21/e0a2c1ba0db041909690940e4199faa1.png">             <div class="reward-title">鹿娘壁咚</div>             <div class="reward-price">500</div>         </li>                  <li data-click="onSelect:0," class="reward-item" itemid="1" fansvalue="1000" title="一袋节操" price="1000" index="3">             <img src="http://easyread.nos.netease.com/pic/2016/03/21/5cacb3faebf249efbd7cfb462e109a9c.png">             <div class="reward-title">一袋节操</div>             <div class="reward-price">1000</div>         </li>              </ul> </div>                  <div class="reward-btn" data-log="b1-41:detail,gift_page,login" data-click="login">宝宝乖~先去登录</div>       <p class="reward-balance">我的金币：<span class="j-reward-balance">迷之财产( Φ ω Φ )</span></p>  </div></div>
+		        	</div>
+		        </div>
+
+				<div class="yt-panel yt-block" style="padding:0;">
+		          <div class="yt-panel-header-2 f-cb">
+		            <div class="heading">
+						<span class="source-font source-font-recommendation">小伙伴还在看(=￣ω￣=)</span>
+					</div>
+		          </div>
+		          <div class="yt-panel-body f-cb yt-works" style="padding:12px 12px;height:265px;" id="relatedLinks">
+						<a target="_blank" title="百战学霸" style="display: block; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4316808069910044571" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_1,4316808069910044571">
+							<img alt="百战学霸" src="http://easyread.nos.netease.com/pic2016012597d948377f154d628d560950494f0954.jpeg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">百战学霸</h3>
+							<p class="f-toe">想高考被逼打游戏？</p>
+						</a>
+						<a target="_blank" title="哪吒归来" style="display: block; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4317069939840078317" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_2,4317069939840078317">
+							<img alt="哪吒归来" src="http://easyread.nos.netease.com/pic/2015/07/02/1fd560adfa1a4060903c942d595d0b99.jpg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">哪吒归来</h3>
+							<p class="f-toe">三太子威武霸气</p>
+						</a>
+						<a target="_blank" title="九绝天" style="display: block; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4580007153340108878" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_3,4580007153340108878">
+							<img alt="九绝天" src="http://easyread.nos.netease.com/pic20160316e965fb0703c44a7bb7a99b8dc57fa988.jpeg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">九绝天</h3>
+							<p class="f-toe">末法时代的少女修士</p>
+						</a>
+						<a target="_blank" title="御宅学院：黑暗之城" style="display: block; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4527411211400125551" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_4,4527411211400125551">
+							<img alt="御宅学院：黑暗之城" src="http://easyread.nos.netease.com/pic2016012865b5031c1b234668aa6048badf8a8d35.jpeg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">御宅学院：黑暗之城</h3>
+							<p class="f-toe">你的意识，我拿走了</p>
+						</a>
+						<a target="_blank" title="妖神记" style="display: none; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4350534790310120228" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_5,4350534790310120228">
+							<img alt="妖神记" src="http://easyread.nos.netease.com/pic20160125a0aa4e8385dc431a8d493d8c45580c98.jpeg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">妖神记</h3>
+							<p class="f-toe">时空妖灵师大战妖神</p>
+						</a>
+						<a target="_blank" title="娱乐之主" style="display: none; margin-left: 20px; margin-right: 20px;" itemprop="relatedLink" href="/source/4408178691970102847" class="yt-work yt-work-align" data-log="b1-22:detail,recommend_6,4408178691970102847">
+							<img alt="娱乐之主" src="http://easyread.nos.netease.com/pic201601251283a2fe4fd847fcbce67d1117eb58f5.jpeg?imageView&amp;thumbnail=130y182" width="130" height="182">
+							<h3 class="f-toe">娱乐之主</h3>
+							<p class="f-toe">娱乐圈屌丝逆袭之路</p>
+						</a>
+
+		          </div>
+
+<script>
+window.ytUtil.adjustFloorComposing(document.getElementById('relatedLinks'), 130, 1);
+$(window).resize(function() {
+window.ytUtil.adjustFloorComposing(document.getElementById('relatedLinks'), 130, 1);
+});
+</script>
+		        </div>
+              <div class="block comment" id="comment-block">
+                  <div class="block-row block-row--head f-cb comment-head yt-panel-header-2">
+                      <div class="block-title f-fl"><span class="source-font source-font-comment">评论</span></div>
+                      <div class="f-fl comment-count j-comment-metadata">共有<span class="j-count">0</span>条评论</div>
+                      <div class="f-fr pager-wrapper-top" id="js-pager-wrapper1"></div>
+                  </div>
+                  <div class="block-row z-dashed">
+                      <div id="comment-top" class="block-row"><form class="m-comment f-cb g-cols--table z-top" id="auto-id-1467862972438">    <div class="g-col m-comment-avatar-wrapper f-pr">        <img class="avator js-avatar" width="42" height="42" style="height: 42px;" alt="" src="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=42y42&amp;imageView" srcset="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=84y84&amp;imageView">        <div class="js-headwear-wrapper"> </div>    </div>    <div class="g-col--adapt m-comment-main">        <div class="m-comment-input-wrapper">            <textarea class="m-comment-input" name="content" data-max-length="1000" data-required="true" placeholder="嘟闭嘴！本王要发话了( ͡° ͜ʖ ͡°)" id="auto-id-1467862972433"></textarea>            <div class="m-comment-count">                <span class="js-nej-tp" style="display: block;">                    <span class="j-count">还可输入500字</span>                </span>                <span class="js-nej-er" style="display: none;"></span>                <span class="js-nej-ok" style="display: none;"></span>            </div>        </div>        <div class="m-comment-bottom f-cb">           <div class="m-comment-btn-emoji f-fl">               <button type="button" data-log="b1-45:detail,yan_text" class="u-btn-square z-grey js-btn-emoji" id="auto-id-1467862972429">颜文字(´・ω・`)</button>           </div>           <div class="m-comment-btn-emoji f-fl">               <button type="button" data-log="b1-46:detail,luniang,comment" class="u-btn-square z-grey js-btn-ln" id="auto-id-1467862972425">鹿娘表情包</button>           </div>           <button class="z-danger f-fr u-btn-comment js-btn-comment" disabled="true" type="button" id="auto-id-1467862972431" data-log="b1-25:detail,comment_post,4530855668140092184">评论</button>        </div>    </div> </form></div>
+                      <div class="m-comment-list block-row" id="comment_list"></div>
+                      <div id="js-pager-wrapper2" class="pager-wrapper-bottom"></div>
+                  </div>
+                  <div id="comment-bottom" class="comment-wrapper-bottom"></div> 
+              </div>
+		      
+			</div>
+
+			<div class="one-forth column">
+          <div class="block m-user block-container yt-panel">
+               
+                <div class="m-user-type spirit-partner"></div>
+                <div class="g-row g-cols--table z-top">
+                    <div class="g-col g-col--avatar">
+                        <img src="http://easyread.nos.netease.com/pic20160118d3acee7c7dce414fa5ed48211947d053.png?imageView&amp;crop=0_0_512_512&amp;thumbnail=72y72" width="72" height="72" class="avator" alt="新漫画APP">
+                    </div>
+                    <div class="g-col--adapt m-user-head">
+                        <div class="m-user-title">新漫画APP</div>
+                        <a class="m-user-em" title="新漫画APP" href="/author/book/16904898" data-log="b1-3:detail,allbook,4530855668140092184" target="_blank">全部作品：6</a>
+                    </div>
+                </div>
+            <div class="g-row m-user-am f-wwb">
+               <div class="m-user-am-triangle"></div>
+                欢迎加入杰探粉丝群！QQ群号：108537387有最新作品及粉丝福利派送
+            </div>
+        </div>
+
+				<!--粉丝榜 月票榜 begin-->
+				<div role="tabpanel" class="source-side-panel">
+					<div class="f-cb f-pr">
+						<div class="work-interaction-tabs">
+							<ul id="j-funMKTab" role="tablist" class="horizontal-list">
+								<li class="j-tab first active" data-value="j-fans-rank" data-log-data="b1-39:detail,fans_rank,4530855668140092184" id="auto-id-1467862972408"><a href="javascript:void(0);" role="tab"><span class="source-font source-font-fans-rank">粉丝排行榜</span></a></li>
+								<li class="j-tab last" data-value="j-ticket-rank" data-log-data="b1-17:detail,ticket,4530855668140092184" id="auto-id-1467862972410"><a href="javascript:void(0);" role="tab"><span class="source-font source-font-mk-rank">月票排行榜</span></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div id="j-fans-rank" class="fade-in">
+						<div class="fans-ranck-block block">
+							<div class="fans-rank-list">
+									<div class="fans-list-item f-cb pink-block fans-list-item-top1">
+										<div class="f-cb">
+											<div class="avator-block f-fl f-pr f-tac">
+												<a href="/home.do?uid=uEB0qrQ" title="1928" target="_blank">
+												<img alt="1928" class="avator" src="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?imageView&amp;thumbnail=60y60" srcset="http://easyread.nos.netease.com/eda721d29d944753aac3769701a0e245.png?imageView&amp;thumbnail=120y120" width="60">
+														<div class="fans-headwear headwear-doctor"></div>
+														<span class="spirit-doctor2 f-pr"></span>
+
+												</a>
+											</div>
+											<span class="f-fr number">01</span>
+
+											<div class="fans-meta">
+												<a href="/home.do?uid=uEB0qrQ" target="_blank">
+												<p class="fans-name j-emoji">1928</p>
+													</a>
+
+												<p class="fans-value">粉丝值： 28300</p>
+											</div>
+										</div>
+											<div class="worship-action f-tac">
+												<a href="javascript:void(0);" class="j-btn-worship u-btn btn-worship">膜拜TA</a>
+											</div>
+									</div>
+									<div class="fans-list-item f-cb fans-list-item-top2">
+										<div class="f-cb">
+											<div class="avator-block f-fl f-pr f-tac">
+												<a href="/home.do?uid=uEB9F6Q" title="brokenguitar117" target="_blank">
+												<img alt="brokenguitar117" class="avator" src="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?imageView&amp;thumbnail=60y60" srcset="http://easyread.nos.netease.com/ad768e48886b439a8c4a04d99e00e127.png?imageView&amp;thumbnail=120y120" width="60">
+															<div class="fans-headwear headwear-master"></div>
+															<span class="spirit-master2 f-pr"></span>
+
+												</a>
+											</div>
+											<span class="f-fr number">02</span>
+
+											<div class="fans-meta">
+												<a href="/home.do?uid=uEB9F6Q" target="_blank">
+												<p class="fans-name j-emoji">brokenguitar117</p>
+													</a>
+
+												<p class="fans-value">粉丝值： 10010</p>
+											</div>
+										</div>
+									</div>
+						        <div class="gift-action-block">
+									<img class="worship-explain" src="http://st.manhua.126.net/images/fans/favor.png?a71a6a9750cc6b02f8e9d62034665a0a" srcset="/images/fans/favor@2x.png 2x" style="width: 214px;">
+									<p class="f-tac">粉丝榜还有位置，快来送礼物吧</p>
+									<p class="f-tac">作者大大很期待！</p>
+									<div class="f-tac">
+										<a class="j-btn-gift u-btn u-btn-danger1 btn-give-gift" href="javascript:void(0);">给作者大大送礼物</a>
+									</div>
+								</div>
+							</div>
+					        <div class="my-fans-rank columns f-pr f-tac">
+										<a class="j-btn-login f-ib" href="javascript:void(0);">登录后查看我的排名</a>
+
+								</div>
+
+
+						</div>
+					</div>
+					<div id="j-ticket-rank" style="display: none;">
+
+						<div class="block ticket-rank-block">
+							<div class="ticket-rank-list">
+								    <ul class="unstyled list-revealing list-revealing-1 j-revealing" data-key="ticket" data-sub-key="current">
+
+                <li class="active" data-tpl="tpl-mt" data-url="/source/4645740535490115552" data-image-url="http://easyread.nos.netease.com/pic20160602b9236a9519524fc8886a0a5ca7ba4aad.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="斗罗大陆3龙王传说" data-total-votes="1284" data-number="01" data-latest-section="14话" data-author="Dr.大吉&amp;Bart.D">
+                    <div style="display:none;">
+                        <span class="f-fl yt-order yt-cirle-order yt-order-01">01</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 1284</span>
+
+                        <div class="inline-title">斗罗大陆3龙王传说</div>
+                    </div>
+                    <div class="u-media" data-log="b1-24:detail,rank_ticket_current_0,4645740535490115552">
+                        <a title="斗罗大陆3龙王传说" href="/source/4645740535490115552" target="_blank" class="img-container f-fl u-enlarge">
+                            <img alt="斗罗大陆3龙王传说" src="http://easyread.nos.netease.com/pic20160602b9236a9519524fc8886a0a5ca7ba4aad.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" width="80" height="112">
+                        </a>
+
+                        <div class="media-body f-pr" style="height:112px;">
+                            <h3 class="media-heading"><a href="/source/4645740535490115552" target="_blank" title="斗罗大陆3龙王传说">斗罗大陆3龙王传说</a></h3>
+
+                            <p class="stat stat-first"><i class="new-icon icon-author-gray1 f-ib"></i>作者 Dr.大吉&amp;Bart.D</p>
+
+                            <p class="stat"><i class="new-icon icon-update-gray f-ib"></i>更新 14话
+                            </p>
+
+                            <p class="stat stat-bottom"><i class="new-icon icon-mk-orange f-ib"></i>月票 1284</p>
+                            <span class="yt-order number yt-order-01">01</span>
+                        </div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="1" data-url="/source/4316808069910049882" data-image-url="http://easyread.nos.netease.com/pic201602255e3a2affcab441738c8022ab4b5afd44.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="我才不会被女孩子欺负呢" data-total-votes="937" data-number="02" data-latest-section="43话" data-author="灵动漫画">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order yt-order-02">02</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 937</span>
+
+                        <div class="inline-title">我才不会被女孩子欺负呢</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="2" data-url="/source/4604519002090128474" data-image-url="http://easyread.nos.netease.com/pic201604140b1194133f6948179c3ca72a845979b0.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="斗罗大陆II绝世唐门" data-total-votes="865" data-number="03" data-latest-section="63(3)" data-author="《绝世唐门》漫画创作组">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order yt-order-03">03</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 865</span>
+
+                        <div class="inline-title">斗罗大陆II绝世唐门</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="3" data-url="/source/4350534790310120228" data-image-url="http://easyread.nos.netease.com/pic20160125a0aa4e8385dc431a8d493d8c45580c98.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="妖神记" data-total-votes="728" data-number="04" data-latest-section="94话" data-author="踏雪动漫">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">04</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 728</span>
+
+                        <div class="inline-title">妖神记</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="4" data-url="/source/4573238801760108343" data-image-url="http://easyread.nos.netease.com/pic2016030972f8813c311b40778425b5c91c0ebdc9.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="斗罗大陆" data-total-votes="672" data-number="05" data-latest-section="148话" data-author="风炫漫画">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">05</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 672</span>
+
+                        <div class="inline-title">斗罗大陆</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="5" data-url="/source/4508538831870127506" data-image-url="http://easyread.nos.netease.com/pic/2016/02/26/9b4a71124f91472995a7f70a5b4bfbba.jpg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="中国诡实录" data-total-votes="645" data-number="06" data-latest-section="特10" data-author="三老爷">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">06</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 645</span>
+
+                        <div class="inline-title">中国诡实录</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="6" data-url="/source/4317076104890059052" data-image-url="http://easyread.nos.netease.com/pic/2015/07/02/2466e4a4393f4e7abc2b0824264fa060.jpg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="杀手古德" data-total-votes="541" data-number="07" data-latest-section="382话" data-author="杭州友诺">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">07</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 541</span>
+
+                        <div class="inline-title">杀手古德</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="7" data-url="/source/4458002705630123099" data-image-url="http://easyread.nos.netease.com/pic/2016/03/08/103cda4afde3411db1f0cfcad907ac21.jpg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="黑执事" data-total-votes="525" data-number="08" data-latest-section="117话" data-author="枢梁">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">08</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 525</span>
+
+                        <div class="inline-title">黑执事</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="8" data-url="/source/4610644654650092027" data-image-url="http://easyread.nos.netease.com/pic20160420e58b7087879b429db7be826746acd8e2.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="武动乾坤" data-total-votes="519" data-number="09" data-latest-section="30(3)" data-author="绿光">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">09</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 519</span>
+
+                        <div class="inline-title">武动乾坤</div>
+                    </div>
+                </li>
+                <li data-tpl="tpl-mt" data-index="9" data-url="/source/4577380875630090313" data-image-url="http://easyread.nos.netease.com/pic2016031474218470c8dd4ff7a1bff174a5731995.jpeg?imageView&amp;quality=100&amp;thumbnail=120y168" data-name="天才医仙" data-total-votes="464" data-number="10" data-latest-section="活动1" data-author="风人动漫">
+                    <div>
+                        <span class="f-fl yt-order yt-cirle-order ">10</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-mk-orange f-ib"></i>月票 464</span>
+
+                        <div class="inline-title">天才医仙</div>
+                    </div>
+                </li>
+    </ul>
+
+    <!-- vampire:success -->
+
+
+							</div>
+							<div class="ticket-info-block">
+								<div class="pink-block ticket-info-block-inner">
+									<div class="ticket-info f-cb">
+										<div class="f-fl">
+											<p class="book-title"> 杰探</p>
+											<a href="/monthTicket/bookVotes/4530855668140092184" target="_blank"><p class="ticket-number" data-log="b1-31:detail,all_ticket,4530855668140092184">本月票数：0票</p></a>
+											<a href="/monthTicket/bookVotes/4530855668140092184" target="_blank"><p class="ticket-number" data-log="b1-31:detail,all_ticket,4530855668140092184">今日收获：0票</p></a>
+										</div>
+										<div class="f-fr">
+											<span class="new-icon icon-mk-rank-pink"></span>
+											<div class="rank-number">0</div>
+										</div>
+
+									</div>
+									<div class="action-area">
+										<a class="j-btn-voteMK u-btn u-btn-danger1 btn-vote-ticket" href="javascript:void(0);" data-log="b1-30:detail,vote_2,4530855668140092184">投月票 帮大大赚奖金</a>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<!--粉丝榜 月票榜 end-->
+		        <!--最新吐槽 begin-->
+		        
+		        <div class="block source-side-panel" role="tabpanel">
+					<div class="block-row block-row--head block-container">
+						<div class="f-fl block-title"><span class="source-font source-font-latest-tucao">最新吐槽</span></div>
+					</div>
+					<div class="block-row">
+						<div id="j-tucao-item-block"><div><div id="get-more-saying-up" class="more-saying saying-top" data-log="b1-18:detail,scroll,up"></div>         <div class="jst-saying">                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEf83" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4598116139760120000?imageId=4598116139760120008" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">天羽：</span>结果显示，，，，，大团圆</p>                             <span class="f-fr tucao-time">7月2号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBrNgg" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/AA5F948AA7F1A73324B49F0E7C43CA7A/100" srcset="http://q.qlogo.cn/qqapp/1103996410/AA5F948AA7F1A73324B49F0E7C43CA7A/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092186?imageId=4530855668140092191" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">我真帅(＇∀＇)：</span>哈哈哈哈给大柯南做宣传哈哈哈</p>                             <span class="f-fr tucao-time">4月9号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBw5NQ" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4545825141360102094?imageId=4545825141360102097" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">啪啪啪：</span>冰果，触发任务NPC</p>                             <span class="f-fr tucao-time">3月26号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBw5NQ" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092288?imageId=4530855668140092293" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">啪啪啪：</span>小眼往哪看？</p>                             <span class="f-fr tucao-time">3月26号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBw5NQ" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092211?imageId=4530855668140092214" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">啪啪啪：</span>手，女人的</p>                             <span class="f-fr tucao-time">3月26号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBw5NQ" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/dfcecb2e382b4feab52c3fef2e89282c.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4529535265780105745?imageId=4529535265780105748" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">啪啪啪：</span>姑娘，你的裤子...</p>                             <span class="f-fr tucao-time">3月26号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEB0Qbg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4529535265780105755?imageId=4529535265780105763" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">来自新疆维吾尔自治区乌鲁木齐市的漫友：</span>腿上有毛……</p>                             <span class="f-fr tucao-time">3月14号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEB0Qbg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4529535265780105755?imageId=4529535265780105761" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">来自新疆维吾尔自治区乌鲁木齐市的漫友：</span>这……请问怎么做到带的……</p>                             <span class="f-fr tucao-time">3月14号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBo55w" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/CA186F2DEFBCF6FC72A0A017A145B553/100" srcset="http://q.qlogo.cn/qqapp/1103996410/CA186F2DEFBCF6FC72A0A017A145B553/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092186?imageId=4530855668140092192" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">□琉璃&nbsp;岁月゜：</span><img class="img-emoji" style="vertical-align:middle; max-width:20px;" src="/images/emoji/1f44d.png">厉害</p>                             <span class="f-fr tucao-time">3月12号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBo55w" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/CA186F2DEFBCF6FC72A0A017A145B553/100" srcset="http://q.qlogo.cn/qqapp/1103996410/CA186F2DEFBCF6FC72A0A017A145B553/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092186?imageId=4530855668140092191" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">□琉璃&nbsp;岁月゜：</span>就是，简直就是柯南</p>                             <span class="f-fr tucao-time">3月12号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBl-xg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/0a086295abba422a82b646545de996b1.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/0a086295abba422a82b646545de996b1.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092186?imageId=4530855668140092187" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">边城戏：</span>第一</p>                             <span class="f-fr tucao-time">2月28号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBpEOw" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" srcset="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092211?imageId=4530855668140092213" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">昭奚旧草：</span>真是不适合戴帽子</p>                             <span class="f-fr tucao-time">2月27号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBpEOw" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" srcset="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092211?imageId=4530855668140092212" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">昭奚旧草：</span>画风变了</p>                             <span class="f-fr tucao-time">2月27号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBpEOw" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" srcset="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4529535265780105745?imageId=4529535265780105748" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">昭奚旧草：</span>女主出现了？</p>                             <span class="f-fr tucao-time">2月27号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEBpEOw" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" srcset="http://q.qlogo.cn/qqapp/1103996410/DFBE61EA65F89F11CE8224F6E1E4E97E/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092196?imageId=4530855668140092198" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">昭奚旧草：</span>还是美少年来着</p>                             <span class="f-fr tucao-time">2月27号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEeGLtg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4529535265780105755?imageId=4529535265780105756" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">zhuxu121：</span>作者厉害，唐宋时候运河就是这样的走向</p>                             <span class="f-fr tucao-time">2月19号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEeGLtg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092211?imageId=4530855668140092213" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">zhuxu121：</span>古装戴帽子以后头发会是这样吗？</p>                             <span class="f-fr tucao-time">2月19号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEeGLtg" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/56da612f713448afab6352f5d86e8799.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092196?imageId=4530855668140092197" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">zhuxu121：</span>字元芳？</p>                             <span class="f-fr tucao-time">2月19号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEB-psw" target="_blank">                     <img class="avator" src="http://q.qlogo.cn/qqapp/1103996410/20A1E8A18D235FEDF1FA33D293E042C5/100" srcset="http://q.qlogo.cn/qqapp/1103996410/20A1E8A18D235FEDF1FA33D293E042C5/100" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092383?imageId=4530855668140092392" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">十二夜月圆明望：</span>没人吐槽┐(‘～`；)┌这个槽点吗</p>                             <span class="f-fr tucao-time">2月18号</span>                     </div>                     </a>                 </div>             </div>                          <div class="tucao-item">                 <div class="f-fl avatar-block">                     <a href="/home.do?uid=uEeANCA" target="_blank">                     <img class="avator" src="http://easyread.nos.netease.com/86bed4b070364507a273e460957ec1fd.png?thumbnail=40y40&amp;imageView" srcset="http://easyread.nos.netease.com/86bed4b070364507a273e460957ec1fd.png?thumbnail=80y80&amp;imageView" width="40" style="height: 40px">                         </a>                                      </div>                 <div class="f-pr tucao-content-block">                     <a href="/reader/4530855668140092184/4530855668140092196?imageId=4530855668140092198" class="js-anchor" target="_blank">                     <div class="tucao-info bg-VIP0  f-cb f-pr">                         <div class="tucao-triangle">                             <span class="before"></span>                             <span class="after"></span>                         </div>                             <p class="j-emoji"><span class="tucao-from">此黎子非梨子：</span>2333</p>                             <span class="f-fr tucao-time">2月16号</span>                     </div>                     </a>                 </div>             </div>                      </div>           <div id="get-more-saying-down" class="more-saying saying-bottom" data-log="b1-19:detail,scroll,down"></div> </div></div>
+					</div>
+				</div>
+		<!--最新吐槽 end-->
+
+		<!--侧边banner begin-->
+		        <div class="source-side-panel">
+            <a target="_blank" title="朔月" class="prom-link prom-link-block" href="http://manhua.163.com/source/4610390818390105896" data-log="b1-21:detail,banner_2,http://manhua.163.com/source/4610390818390105896">
+                <img src="http://easyread.nos.netease.com/pic/2016/06/30/470cff70de1541e88bba4aabf8eeab0c.jpg" alt="朔月">
+            </a>
+        </div>
+<!-- vampire:success -->
+
+		<!--侧边banner end-->
+
+
+					<!--免费人气周榜 begin-->
+					<div class="block source-side-panel" role="tabpanel">
+						<div class="block-row block-row--head block-container">
+							<div class="f-fl block-title"><span class="source-font source-font-free-week-rank">免费人气周榜</span></div>
+						</div>
+						<div class="block-row">
+							    <ul class="unstyled list-revealing list-revealing-1 j-revealing" data-rank-type="free">
+
+                <li class="active" data-tpl="tpl-vip-free" data-url="/source/4508538831870127506" data-image-url="http://easyread.nos.netease.com/pic/2016/02/26/9b4a71124f91472995a7f70a5b4bfbba.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="中国诡实录" data-count="788万" data-number="01" data-latest-section="特10" data-author="三老爷">
+                    <div style="display:none;">
+                        <span class="f-fl yt-order yt-cirle-order yt-order-01">01</span>
+                        <span class="f-fr high-light"><i class="new-icon icon-fire-pink"></i>人气&nbsp;&nbsp;788万</span>
+
+                        <div class="inline-title">中国诡实录</div>
+                    </div>
+                    <div class="u-media" data-log="b1-42:detail,rank_click,free">
+                        <a title="中国诡实录" href="/source/4508538831870127506" target="_blank">
+                            <img alt="中国诡实录" src="http://easyread.nos.netease.com/pic/2016/02/26/9b4a71124f91472995a7f70a5b4bfbba.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" class="f-fl" width="80" height="112">
+                        </a>
+
+                        <div class="media-body f-pr" style="height:112px;">
+                            <h3 class="media-heading"><a href="/source/4508538831870127506" target="_blank" title="中国诡实录">中国诡实录</a></h3>
+
+                            <p class="stat stat-first"><i class="new-icon icon-author-gray1 f-ib"></i>作者 三老爷</p>
+
+                            <p class="stat"><i class="new-icon icon-update-gray f-ib"></i>更新 特10
+                            </p>
+
+                            <p class="stat stat-bottom"><i class="new-icon icon-fire-pink f-ib"></i>点击
+                                788万</p>
+                            <span class="yt-order number yt-order-01">01</span>
+                        </div>
+                    </div>
+                </li>
+                    <li data-tpl="tpl-vip-free" data-index="1" data-url="/source/4317041374930046603" data-image-url="http://easyread.nos.netease.com/pic201601252a5460095352498285abf551d4ba72ce.jpeg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="中国怪谈" data-count="363万" data-number="02" data-latest-section="中篇20.2" data-author="十日十月">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order yt-order-02">02</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;363万</span>
+
+                            <div class="inline-title">中国怪谈</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="2" data-url="/source/4316808069910049882" data-image-url="http://easyread.nos.netease.com/pic201602255e3a2affcab441738c8022ab4b5afd44.jpeg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="我才不会被女孩子欺负呢" data-count="328万" data-number="03" data-latest-section="43话" data-author="灵动漫画">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order yt-order-03">03</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;328万</span>
+
+                            <div class="inline-title">我才不会被女孩子欺负呢</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="3" data-url="/source/4458002705630123099" data-image-url="http://easyread.nos.netease.com/pic/2016/03/08/103cda4afde3411db1f0cfcad907ac21.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="黑执事" data-count="301万" data-number="04" data-latest-section="117话" data-author="枢梁">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">04</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;301万</span>
+
+                            <div class="inline-title">黑执事</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="4" data-url="/source/4340892233000110888" data-image-url="http://easyread.nos.netease.com/pic/2015/12/17/9e49278a8f5e447aba3d71296b509857.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="尸界" data-count="255万" data-number="05" data-latest-section="64话" data-author="north0023">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">05</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;255万</span>
+
+                            <div class="inline-title">尸界</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="5" data-url="/source/4376930639940112883" data-image-url="http://easyread.nos.netease.com/pic20160704cf7b045ed04c49d999d8d814044fb38d.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="讨喜笨王妃" data-count="244万" data-number="06" data-latest-section="48上" data-author="霍如凡">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">06</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;244万</span>
+
+                            <div class="inline-title">讨喜笨王妃</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="6" data-url="/source/4317076104890059052" data-image-url="http://easyread.nos.netease.com/pic/2015/07/02/2466e4a4393f4e7abc2b0824264fa060.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="杀手古德" data-count="221万" data-number="07" data-latest-section="382话" data-author="杭州友诺">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">07</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;221万</span>
+
+                            <div class="inline-title">杀手古德</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="7" data-url="/source/4316965340990055253" data-image-url="http://easyread.nos.netease.com/pic/2016/01/03/145bd2595b034becb9265d84e0d8e5ac.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="诡谲日常" data-count="214万" data-number="08" data-latest-section="211话" data-author="EX419">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">08</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;214万</span>
+
+                            <div class="inline-title">诡谲日常</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="8" data-url="/source/4317047100100077914" data-image-url="http://easyread.nos.netease.com/pic/2016/03/30/f69fe63bda144bf5beaf55d83e60d686.jpg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="世变" data-count="201万" data-number="09" data-latest-section="94话" data-author="冷月">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">09</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;201万</span>
+
+                            <div class="inline-title">世变</div>
+                        </div>
+                    </li>
+                    <li data-tpl="tpl-vip-free" data-index="9" data-url="/source/4432191056040099387" data-image-url="http://easyread.nos.netease.com/pic2016012596cdfdbd11b0490a82d0053b65f35576.jpeg?imageView&amp;quality=100&amp;thumbnail=80y112" data-name="甜蜜禁忌" data-count="162万" data-number="10" data-latest-section="55话" data-author="鼠叔">
+                        <div>
+                            <span class="f-fl yt-order yt-cirle-order ">10</span>
+                            <span class="f-fr high-light"><i class="new-icon icon-fire-pink f-ib"></i>人气&nbsp;&nbsp;162万</span>
+
+                            <div class="inline-title">甜蜜禁忌</div>
+                        </div>
+                    </li>
+    </ul>
+
+    <!-- vampire:success -->
+
+						</div>
+					</div>
+					<!--免费人气周榜 end-->
+
+
+            		<div class="block theme source-side-panel">
+            <div class="block-row block-row--head block-container">
+                <div class="f-fl block-title"><span class="source-font source-font-category">分类找找看</span></div>
+                <div class="f-fr theme-more">
+                    <a href="/search/book/filter/form.do" target="_blank" data-log="b1-44:detail,category_click_more,/search/book/filter/form.do">更多</a>
+                    <a class="spirit-more " href="/search/book/filter/form.do" target="_blank" data-log="b1-44:detail,category_click_more,/search/book/filter/form.do"></a>
+                </div>
+                
+            </div>
+            <div class="block-row f-cb">
+                <a title="热血" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=8" class="theme-item" href="/search/book/filter/form.do?tc=8">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/b943d4c68d024ce6a49ccb6c7bf1c1a7.png" alt="热血">
+                    </div>
+                    <div class="theme-name">热血</div>
+                </a>
+                <a title="恋爱" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=16" class="theme-item" href="/search/book/filter/form.do?tc=16">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/3fbec7ce490f40488acb612bda025c45.png" alt="恋爱">
+                    </div>
+                    <div class="theme-name">恋爱</div>
+                </a>
+                <a title="后宫" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=15" class="theme-item" href="/search/book/filter/form.do?tc=15">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/677af99273e244e68b1e126266df98bd.png" alt="后宫">
+                    </div>
+                    <div class="theme-name">后宫</div>
+                </a>
+                <a title="恐怖" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=2" class="theme-item" href="/search/book/filter/form.do?tc=2">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/c2581342b8d343ad8271bc857343ce77.png" alt="恐怖">
+                    </div>
+                    <div class="theme-name">恐怖</div>
+                </a>
+                <a title="治愈" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=24" class="theme-item" href="/search/book/filter/form.do?tc=24">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/d3e0b47af1094520b35158c108fa5f2f.png" alt="治愈">
+                    </div>
+                    <div class="theme-name">治愈</div>
+                </a>
+                <a title="玄幻" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=11" class="theme-item" href="/search/book/filter/form.do?tc=11">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/bc43de7902a54f71b278bd3db72aa2c2.png" alt="玄幻">
+                    </div>
+                    <div class="theme-name">玄幻</div>
+                </a>
+                <a title="百合" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=23" class="theme-item" href="/search/book/filter/form.do?tc=23">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/cd53a1bbe094453d9b3d44265cbaa41d.png" alt="百合">
+                    </div>
+                    <div class="theme-name">百合</div>
+                </a>
+                <a title="恶搞" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=30" class="theme-item" href="/search/book/filter/form.do?tc=30">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/3be0ec3019f944c39be7e6e9341a7668.png" alt="恶搞">
+                    </div>
+                    <div class="theme-name">恶搞</div>
+                </a>
+                <a title="悬疑" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=4" class="theme-item" href="/search/book/filter/form.do?tc=4">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/039ac725a6d64215a61c3d8a9edf9faa.png" alt="悬疑">
+                    </div>
+                    <div class="theme-name">悬疑</div>
+                </a>
+                <a title="萌系" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=13" class="theme-item" href="/search/book/filter/form.do?tc=13">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/b7c5b63fa8ba48ee841d5df631405510.png" alt="萌系">
+                    </div>
+                    <div class="theme-name">萌系</div>
+                </a>
+                <a title="古风" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=36" class="theme-item" href="/search/book/filter/form.do?tc=36">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/99176d6e8dc748fc86e552cbe4b441ee.png" alt="古风">
+                    </div>
+                    <div class="theme-name">古风</div>
+                </a>
+                <a title="穿越" data-log="b1-43:detail,category_click,/search/book/filter/form.do?tc=14" class="theme-item" href="/search/book/filter/form.do?tc=14">
+                    <div class="theme-img">
+                        <img src="http://easyread.nos.netease.com/pic/2016/04/27/aa6834ca53564a31bf5399843d53704b.png" alt="穿越">
+                    </div>
+                    <div class="theme-name">穿越</div>
+                </a>
+            </div>
+      </div>
+
+		</div>
+
+	</div>
+	</div>
+
+
+	
+	
+
+	
+
+  
+
+
+<input id="bookid" type="hidden" value="4530855668140092184">
+	<div class="yt-site-footer">
+        <div class="container">
+            <p class="link">
+                <a href="http://www.163.com" target="_blank">网易首页</a>
+                <span class="sep">-</span>
+                <a href="http://gb.corp.163.com/gb/about/overview.html" rel="nofollow" target="_blank">公司简介</a>
+                <span class="sep">-</span>
+                <a href="http://help.163.com/" rel="nofollow" target="_blank">客户服务</a>
+                <span class="sep">-</span>
+                <a href="http://corp.163.com/gb/legal/legal.html" rel="nofollow" target="_blank">相关法律</a>
+                <span class="sep">-</span>
+                <a href="http://sitemap.163.com/" rel="nofollow" target="_blank">网站导航</a>
+                <span class="sep">-</span>
+                <a class="feedback" href="/feedback" target="_blank" data-log="a1-34:frame,feedback">意见反馈</a>
+                <span class="sep">-</span>
+                <a href="/help" target="_blank">帮助中心</a>
+                <span class="sep">-</span>
+                <a href="http://zz.manhua.163.com" target="_blank" data-log="a1-35:frame,author">作者专区</a>
+                <span class="sep">-</span>
+                <a href="javascript:void(0)" rel="nofollow" class="j-toMobile">访问手机版</a>
+            </p>
+                <p><a href="http://img2.cache.netease.com/www/icp2014.png" target="_blank">ICP证粤B2-20090191</a>
+                <a href="http://img2.cache.netease.com/www/b2-2014.png" target="_blank">增值电信业务经营许可证B2-20090058</a></p>
+            <p>网易公司版权所有©1997-2016</p>
+        </div>
+    </div>
+
+
+        <!-- jst template -->
+	
+  	
+    
+    
+
+	<textarea style="display:none" id="jst-user-area" name="jst">  		&lt;div class="user-menu menu layer yt-layer-1 j-hover-ub" style="width:240px"&gt;
+            &lt;div class="username j-hover-ub"&gt;&lt;h1 class="nickName j-hover-ub"&gt;${nickname|escape}&lt;/h1&gt;{if isVip}&lt;span class="u-ico ranbow-icon-vip ranbow-icon-${vipLevel} j-hover-ub" style="margin-bottom:4px;margin-left:5px;vertical-align:baseline;"&gt;&lt;/span&gt;{/if}&lt;/div&gt;
+            &lt;div class="info"&gt;
+                &lt;a href="/user#diamond" target="_blank" data-log="a1-16:frame_account,balance"&gt;&lt;div class="row1 f-toe3"&gt;${balance}&lt;/div&gt;&lt;div class="row2"&gt;钻石&lt;/div&gt;&lt;/a&gt;&lt;div
+                 class="menuitem-separator-r"&gt;&lt;/div&gt;&lt;a
+                 href="/user#coin" target="_blank" data-log="a1-16:frame_account,score"&gt;&lt;div class="row1 f-toe3"&gt;${score}&lt;/div&gt;&lt;div class="row2"&gt;金币&lt;/div&gt;&lt;/a&gt;&lt;div
+                 class="menuitem-separator-r"&gt;&lt;/div&gt;&lt;a
+                 href="/user#mk" target="_blank" data-log="a1-16:frame_account,ticket"&gt;&lt;div class="row1 f-toe3"&gt;${monthticket}&lt;/div&gt;&lt;div class="row2"&gt;月票&lt;/div&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="vip"&gt;{if isVip}&lt;a href="javascript:;" class="j-btn-gift u-btn u-btn-danger1 btn-give-gift"  onclick="vip.openup(true)"&gt;VIP续费&lt;/a&gt;{elseif vipLevel != "vip0"}&lt;a href="javascript:;" class="j-btn-gift u-btn u-btn-danger1 btn-give-gift"  onclick="vip.openup(true)"&gt;重开VIP&lt;/a&gt;{else}&lt;a href="javascript:;" class="j-btn-gift u-btn u-btn-danger1 btn-give-gift"  onclick="vip.openup()"&gt;开通VIP&lt;/a&gt;{/if}&lt;/div&gt;
+    		&lt;div class="menuitem-separator j-hover-ub"&gt;&lt;/div&gt;
+    		&lt;a href="/logout?redirect=/source/4530855668140092184" rel="nofollow" data-action="logout" class="menuitem menuitem-signout j-hover-ub" data-log="a1-17:frame_account,logout"&gt;&lt;span class="u-ico ico-meta ico-meta-signout j-hover-ub"&gt;&lt;/span&gt;退出&lt;/a&gt;
+  		&lt;/div&gt;
+    	&lt;div class="layer-flag layer-flag--bordered"&gt;&lt;div class="layer-flag-inner"&gt;&lt;/div&gt;&lt;/div&gt;
+    </textarea>
+	
+	<textarea style="display:none" id="tpl-shelf" name="txt">		&lt;div class="layer yt-layer-1 yt-layer-1--white" style="width:250px;"&gt;
+        	&lt;div class="js-flag"&gt;&lt;/div&gt;
+    	&lt;/div&gt;
+    	&lt;div class="layer-flag layer-flag--bordered" style="left:30px"&gt;&lt;div class="layer-flag-inner"&gt;&lt;/div&gt;&lt;/div&gt;
+  	</textarea>
+
+
+    <script>
+  window.CMS_CONFIG = {
+    "suggestions": [
+          {data: {"bookId": "4645740535490114817"},value: "“绅士”们的恋爱战争"}
+	            ,
+          {data: {"bookId": "4559486971000115977"},value: "漫画家与大明星：悦蓉与悦成"}
+	            ,
+          {data: {"bookId": "4577380875630090313"},value: "天才医仙"}
+	            ,
+          {data: {"bookId": "4316808070150076188"},value: "战国武校"}
+	            ,
+          {data: {"bookId": "4346777413000105271"},value: "进化萌宠"}
+ 
+    ]};
+</script>
+<!-- vampire:success -->
+
+
+
+    <div id="aside-util" class="yt-aside-util" style="right: 20px; bottom: 120px;">
+        <div class="itm f-pr" style="">
+            <a href="javascript:;" class="j-qr-trigger" style="display:block;" id="auto-id-1467862972391">
+                <i class="u-ico yt-ico-medium yt-ico-qr" style="margin-top:10px"></i>
+                <span class="plain-text">扫二维码</span>
+            </a>
+        </div>
+
+        <a href="/sixin" target="_blank" class="itm f-pr" data-log="a1-34:frame,feedback">
+            <i class="u-ico yt-ico-medium yt-ico-feedback" style="margin-top:11px"></i>
+            <span class="plain-text">问题反馈</span>
+            <div style="display:none" class="js-feedbackUnreadCounter u-counter counter--child"></div>
+        </a>
+
+        <a href="javascript:;" class="itm j-backToTop" style="display: none;">
+            <i class="u-ico yt-ico-medium yt-ico-arrow-t" style="margin-top:8px"></i>
+            <span class="plain-text">回到顶部</span>
+        </a>
+    </div>
+            <script>
+window.DEBUG = false
+window.PG_CONFIG = {
+"id": "4530855668140092184",
+"bookCover":"http://easyread.nos.netease.com/pic201601195034d898269047a1a99194e3a08bb61e.jpeg",
+"user": "http://easyread.nos.netease.com/web/trunk/1428048646694/user2.png",
+"userFansRank": 0,
+"userFansValue": 0
+}
+window.ShareConfig = {
+comic:'我在追一部超赞的漫画 《${book}》${brief}'
+}
+</script>
+<script>
+window.faces = [{url: 'http://easyread.nos.netease.com/pic/2016/06/13/e71c9389ea1f434babc387dae7f8033e.png',value:'点赞',desc:'点赞'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/7757b9aef1cd435fa2f211be95d05f0a.png',value:'冷漠',desc:'冷漠'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/87eb642ca07b48f1b734b5c7fe25842c.png',value:'大哭',desc:'大哭'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/c2a07f67c0a24f4795b8987ea463eff0.png',value:'然并卵',desc:'然并卵'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/d3394cf89f7345a3b68a644c1b0ccd08.png',value:'哭',desc:'哭'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/53673f9795d142b585b4791c7913b96b.png',value:'懵逼',desc:'懵逼'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/b6f9c8ee47ef41c5b3b6205bf318aae7.png',value:'手比心',desc:'手比心'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/c6255168638a433cb8f7017df4f90920.png',value:'开心',desc:'开心'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/69881f9b3a4a4dbb9e4c38c163f448b2.png',value:'咸鱼',desc:'咸鱼'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/77d6f7cb31154ba2bfb9a193eb48c7b7.png',value:'掀桌',desc:'掀桌'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/043f749497084e2ba422697b2efed4f0.png',value:'噗',desc:'噗'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/d252976f7aeb4b60bcf177565db8c567.png',value:'计划通',desc:'计划通'},{url: 'http://easyread.nos.netease.com/pic/2016/06/13/ab7e52d86caa4a8fa826d91d833fd681.png',value:'怪我咯',desc:'怪我咯'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/f7250c2f9e5e40578ffb3a75c04a7dc8.png',value:'黑化',desc:'黑化'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/c6e03e1820264778b399f506bdb8ae86.png',value:'有趣',desc:'有趣'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/768fb72731b94929bb398bf3a819f4de.png',value:'这个人',desc:'这个人'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/d4b5194df7df42718221d555d8d88c6b.png',value:'想静静',desc:'想静静'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/bb894bda7ad24b6393cf685c0228b054.png',value:'泪扇',desc:'泪扇'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/5c451c1a84964817b8fd5ffecd28c1e9.png',value:'=口=',desc:'=口='},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/e417434f39234c9d962a634760f92f56.png',value:'吃瓜',desc:'吃瓜'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/278b9967d6db4611af902db533c78b30.png',value:'不来一发吗',desc:'不来一发吗'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/d5751754b82e42a4b4bdeb5fc52f22c9.png',value:'鄙视',desc:'鄙视'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/5975063753c5426394da47879da822af.png',value:'哥斯拉',desc:'哥斯拉'},{url: 'http://easyread.nos.netease.com/pic/2016/05/30/6411e0df88164e50b7181c0171924474.png',value:'脱力',desc:'脱力'}];
+</script>
+<script>if (!this.I$){this.I$=function(){var a={},b=[],c=function(){return!1},d={},e=function(b,c){return a.toString.call(b)==="[object "+c+"]"};return function(f,g){var h=d[f],i=e(g,"Function");if(null==g||i||(h=g),i){for(var j=[],k=2,l=arguments.length;l>k;k++)j.push(I$(arguments[k]));var m={};j.push.call(j,m,a,c,b);var n=g.apply(null,j)||m;if(h&&e(n,"Object"))if(Object.keys)for(var p,o=Object.keys(n),k=0,l=o.length;l>k;k++)p=o[k],h[p]=n[p];else for(var p in n)h[p]=n[p];else h=n}return h||(h={}),d[f]=h,h}}();}</script><script src="http://st.manhua.126.net/static/core_online_0762417868a3e659007c49fecbb80eca.js" type="text/javascript"></script><div class="tip auto-1467862972379 a-bouncein" style="display:none"><div class="text j-text"></div></div><script src="http://st.manhua.126.net/static/pt_source_online_4ddf7fd1f84900fd97a0d1008525d819.js" type="text/javascript"></script>
+
+
+
+
+    
+
+
