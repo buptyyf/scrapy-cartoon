@@ -21,13 +21,13 @@ class SfacgSpider(Spider):
     ]
 
     def parse(self, response):
-        cmd = 'phantomjs constructDom.js "%s"' % response.url
-        stdout,stderr = subprocess.Popen(cmd,shell= True,stdout = subprocess.PIPE,stderr = subprocess.PIPE).communicate()
+        #cmd = 'phantomjs constructDom.js "%s"' % response.url
+        #stdout,stderr = subprocess.Popen(cmd,shell= True,stdout = subprocess.PIPE,stderr = subprocess.PIPE).communicate()
         #f = file('code.txt', 'w+')
         #f.writelines(stdout)
         #print (stdout)
-        sel = Selector(text=stdout)
-        #sel = Selector(response)
+        #sel = Selector(text=stdout)
+        sel = Selector(response)
         item = CartoonItem()
         item['name'] = "".join(sel.css('ul.synopsises_font>li:nth-of-type(2)>span:nth-of-type(1)::text').extract()).strip()
         

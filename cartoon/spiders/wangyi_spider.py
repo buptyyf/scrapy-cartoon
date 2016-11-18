@@ -1,10 +1,11 @@
 #encoding:utf-8
 from scrapy import Spider
 from scrapy.selector import Selector
-
+import scrapy
 from cartoon.items import CartoonItem
 import re
 import subprocess
+import json
 import time
 import sys
 reload(sys)
@@ -31,6 +32,9 @@ class WangyiSpider(Spider):
         sel = Selector(text=stdout)
         '''
         sel = Selector(response)
+        csrfToken = sel.css("input#j-csrf::attr(value)").extract()[0].strip()
+        name = "".join(sel.css('h1.m-source-title::text').extract()).strip()
+        bookId = response.url.split("/")[-1]
         item = CartoonItem()
         item['name'] = "".join(sel.css('h1.m-source-title::text').extract()).strip()
         item['url'] = response.url
@@ -41,10 +45,16 @@ class WangyiSpider(Spider):
         else:
             item['hitNum'] = int(item['hitNum'])
         item['collectionNum'] = -1
-        item['commentNum'] = int("".join(sel.css('div.g-cols--float>div.g-col:nth-of-type(2)>div.metadata:nth-of-type(2)::text').re(u'吐槽\：(.*)')).strip())
         item['likeNum'] = -1
         item['caiNum'] = -1
         item['webName'] = "网易漫画"
         item['crawlTime'] = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-        print(item)
+        commentApiUrl = "http://manhua.163.com/comment/"+bookId+"/comments?csrfToken="+csrfToken+"&bookId="+bookId+"&page=1"
+        request = scrapy.Request(commentApiUrl, callback = self.moreparse)
+        request.meta['item'] = item
+        return request
+    def moreparse(self, response):
+        item = response.meta['item']
+        data = json.loads(response.body_as_unicode())
+        item['commentNum'] = data['commentCount']
         return item
